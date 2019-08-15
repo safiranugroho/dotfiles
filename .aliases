@@ -1,14 +1,22 @@
-# General aliases
+# Shortcuts
 alias vz='vim ~/.zshrc'
 alias sz='source ~/.zshrc'
-alias code='open -a "Visual Studio Code"'
-alias intellij='open -a "IntelliJ IDEA CE"'
-alias android='open -a "Android Studio"'
 alias ip='curl icanhazip.com'
 alias ll='ls -la'
 alias b='./batect'
 alias g='./go'
+alias v='vim'
+alias h='history'
+
+# Open apps
+alias intellij='open -a "IntelliJ IDEA CE"'
+alias code='open -a "Visual Studio Code"'
+alias android='open -a "Android Studio"'
+
+# Bookmarks
 alias wm='cd ~/Code/meetups'
+alias dl='cd ~/Downloads'
+alias doc='cd ~/Documents'
 
 # Git aliases
 alias ga='git add'
