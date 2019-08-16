@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/private/tmp/sample-app'
+let g:netrw_dirhist_2='/private/tmp/sample-app/k8s'
+let g:netrw_dirhist_3='/private/tmp/sample-app/k8s/services'
+let g:netrw_dirhist_4='/private/tmp/sample-app/k8s'
+let g:netrw_dirhist_5='/private/tmp/sample-app'
+let g:netrw_dirhist_6='/private/tmp'
+let g:netrw_dirhist_7='/Users/safira/Desktop/ANZ/Pipelines/engineering-acceleration-infrastructure/.git'
+let g:netrw_dirhist_8='/Users/safira/Desktop/Kotlin/MeetMe/.git'
+let g:netrw_dirhist_9='/Users/safira/Desktop/GraphQL/hackernews-react-apollo/server/database'
