@@ -14,7 +14,6 @@ alias code='open -a "Visual Studio Code"'
 alias android='open -a "Android Studio"'
 
 # Bookmarks
-alias wm='cd ~/Code/meetups'
 alias dl='cd ~/Downloads'
 alias doc='cd ~/Documents'
 

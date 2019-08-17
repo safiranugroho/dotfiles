@@ -19,7 +19,7 @@ ENABLE_CORRECTION="true"
 HIST_STAMPS="mm/dd/yyyy"
 
 # Plugins
-plugins=(git ruby python heroku docker z)
+plugins=(git z)
 
 # Environment variables
 source ~/.exports
