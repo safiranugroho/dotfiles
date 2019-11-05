@@ -1,0 +1,36 @@
+{
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Material Theme Ocean",
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "editor.renderIndentGuides": false,
+    "editor.tabSize": 2,
+    "editor.fontSize": 13,
+    "editor.suggestSelection": "first",
+    "files.trimTrailingWhitespace": true,
+    "files.autoSave": "onFocusChange",
+    "workbench.iconTheme": "file-icons",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "gitlens.currentLine.scrollable": false,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        }
+    ]
+}
