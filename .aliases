@@ -12,6 +12,7 @@ alias h='history'
 alias intellij='open -a "IntelliJ IDEA CE"'
 alias code='open -a "Visual Studio Code"'
 alias android='open -a "Android Studio"'
+alias talisman=$TALISMAN_HOME/talisman_darwin_amd64
 
 # Bookmarks
 alias dl='cd ~/Downloads'
@@ -32,6 +33,7 @@ alias gdt='git diff tool'
 alias gda='git diff HEAD'
 alias gi='git init'
 alias gl='git log --graph --oneline --decorate --all'
+alias glb='git log --graph --oneline --decorate  --first-parent $current_branch_name'
 alias glv='git log'
 alias gld='git log --pretty=format:"%h %ad %s" --date=short --all'
 alias gp='git pull'
@@ -46,6 +48,7 @@ alias gstd='git stash drop'
 alias gstl='git stash list'
 alias gstp='git stash pop'
 alias gsts='git stash save'
+alias gpb="git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -D"
 
 # NPM aliases
 alias ns='npm start'

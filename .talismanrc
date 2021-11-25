@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: .aliases
+  checksum: 2193c596d03aab5ff219a42da13f7999a8ae8dc9f6c0cfc0e6725f244cc4da28
+version: "1.0"
