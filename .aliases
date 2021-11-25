@@ -7,6 +7,8 @@ alias b='./batect'
 alias g='./go'
 alias v='vim'
 alias h='history'
+alias remove-key='ssh-add -d' # remove-key ~/.ssh/id_github
+alias add-key='ssh-add -K' # add-key ~/.ssh/id_github
 
 # Open apps
 alias intellij='open -a "IntelliJ IDEA CE"'
